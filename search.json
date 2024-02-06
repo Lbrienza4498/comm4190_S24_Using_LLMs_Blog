@@ -7,11 +7,25 @@
     "text": "About this blog Here are some experiments looking at LLMs as communicators"
   },
   {
+    "objectID": "posts/001_my_first_post/index.html",
+    "href": "posts/001_my_first_post/index.html",
+    "title": "A test post",
+    "section": "",
+    "text": "for index in range(10): \n    print('hello"
+  },
+  {
+    "objectID": "posts/001_my_first_post/index.html#this-is-a-blog-post",
+    "href": "posts/001_my_first_post/index.html#this-is-a-blog-post",
+    "title": "A test post",
+    "section": "",
+    "text": "for index in range(10): \n    print('hello"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Prompting LLMs",
     "section": "",
-    "text": "A test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
+    "text": "A test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 6, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/000_test_post/index.html",

@@ -49,6 +49,13 @@
     "text": "Read the following and see if you can answer the question:\n\n\nThere are three boxes in a stack. A pink one, a purple one and a green one. The pink one is in the middle of the stack with the purple below it. What is the color of the box on the bottom of the stack?\n\nMost likely you answered purple…\nBut it is possible you first said green (don’t worry if you did it is quite a common response!)\n\n\nIt’s a verbal visual problem that requires some deliberation and most likely for us to create a visual image of a stack of boxes as a reasoning aid.\nNotice also the complexity of the language used in the prompt to describe the scene. The use of natural language as opposed to a formal/logical calculus does hold the potential for ambiguity (multiple interpretations) and inexactness. However, it is the most normal/natural, efficient and broadly accessible way of communicating such information.\nNotice 1. The use of anaphor or reference. - Three BOXES -&gt; a pink/purple/green ONE as opposed to a pink box, a purple box and a green box. - The PINK ONE is in the middle ... the purple {BOX} below IT {the pink box}\nWe tend to try and avoid this kind of repetition to make our speech more coherent.\n\nAlthough the description in language may not be entirely concise, there is no real ambiguity as to how the boxes can be arranged. It must be: | Box | Stack position | | — | — | | GREEN | top | | PINK | middle | | PURPLE | bottom |\n\n\n\n\nGPT3.5 Turbo\n\nHad some difficulties and answered green\nLlama2 (chat 7B version)\n\n\nAnswered correctly (purple) and used some so-called chain-of-thought reasoning\n\nBing Chat (MS Co-pilot)\nThis LLM is GPT4 with some Microsoft specific tuning and RAG (search) additions.\nIt get’s it correct:\n\nThe color of the box on the bottom of the stack is purple. This is because the purple box is below the pink one, which is in the middle of the stack. Therefore, the purple box must be the lowest one. 🟪\n\nBut when you follow up and ask it to create visual representation of the box arrangement\n\nPROMPT: Can you create a visual representation of how the boxes are arranged?\n\nIt responds\n\nRESPONSE: Sure, I’ll try to create that. Here is a visual representation of how the boxes are arranged:\n\nAnd uses DALL-E3 to create 4 different attempts at a visual representation:\n\nNONE OF WHICH ARE CORRECT!!!"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Prompting LLMs",
+    "section": "",
+    "text": "Lucas as a Real HouseHusband\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nCharacter comparison\n\n\n\nMy personal identity and comparison to the Real Housewives\n\n\n\n\n\nFeb 13, 2024\n\n\nLucas Brienza\n\n\n\n\n\n\n\n\n\n\n\n\nLobeHug: A Product made by Generative AI\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nproduct development\n\n\n\nA run through of our product, its selling points, ad copy, and more!\n\n\n\n\n\nFeb 13, 2024\n\n\nLucas Brienza\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 6, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -56,11 +63,53 @@
     "text": "About this blog Here are some experiments looking at LLMs as communicators"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Prompting LLMs",
+    "objectID": "posts/003_Playing_AI/index.html",
+    "href": "posts/003_Playing_AI/index.html",
+    "title": "Lucas as a Real HouseHusband",
     "section": "",
-    "text": "LobeHug: A Product made by Generative AI\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nproduct development\n\n\n\nA run through of our product, its selling points, ad copy, and more!\n\n\n\n\n\nFeb 13, 2024\n\n\nLucas Brienza\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 6, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
+    "text": "In the world of marketing, understanding one’s personal brand is as crucial as any product or company branding. For a recent assignment in my marketing class, I embarked on an introspective journey to compare my personal identity with the image perceived by others. The project required me to gather feedback from friends, family, and peers, asking them to describe me in five words and to identify positive attributes they believe I lack.\n\n\nThe responses from the 14 participants, a blend of those closest to me, painted an overwhelmingly positive picture of my personal image. People see me as sociable, outgoing, humorous, caring, and wise. Descriptors like “outgoing,” “talkative,” and “personable” suggest I am at ease in social situations and adaptable to various people and contexts. With frequent mentions of “funny,” “witty,” “comical,” and “sassy,” it’s evident that my sense of humor is a highlight among my social circles.\nBeyond humor, I am recognized as a supportive friend and family member, with terms such as “listener,” “thoughtful,” “caring,” and “empathetic” used to characterize me. Being referred to as “wise” signals that others see me as a source of advice, while “genuine,” “loyal,” “bubbly,” “amazing,” and “joyful” confirm that my positive energy and good character do not go unnoticed.\n\n\nInterestingly, the exercise also revealed what I am not. Words like “patient,” “relaxed,” and “unbothered” indicate that I may come across as a dynamic individual who reacts keenly to my surroundings, sometimes hastily or with a hot temper. The feedback suggests that I am not always the calmest or most punctual person, which aligns with my self-admitted poor texting habits.\n\n\n\n\nAs a big reality TV fan, fantasizing about being on a show like “The Real Housewives” is a fun diversion. With the insights from my assignment, I prompted an AI tool to create a Real Housewives tagline for me. The result was spot-on:\n“In the game of life, I’m not just playing—I’m playing to win.” “Loyal to my roots and fiery to the core, when I step into the room, I bring the heat without missing a beat!”\n\n\n\nCuriosity led me to ask the AI which Real Housewife I resemble the most, and the answer was Teresa Giudice from “The Real Housewives of New Jersey.” The comparison was drawn based on our shared Italian American heritage, fiery personalities, warmth, humor, struggles with vulnerability, and occasional unresponsiveness.\n\n\n\nConversely, the AI suggested that I am least like Lisa Vanderpump of “The Real Housewives of Beverly Hills,” citing her calm and poised demeanor, emotional reservation, strategic approach to relationships, British formality, and a lifestyle focused on business and philanthropy.\n\n\n\nThe AI’s focus on my Italian American identity in these comparisons is intriguing. It highlights the cultural aspects of my persona, contrasting them with the British reserve of Lisa Vanderpump, while underscoring the similarities with Teresa Giudice’s vivacious Italian energy.\n\n\n\nThis assignment and the playful exploration with AI have not only provided a deeper understanding of how others perceive me but also allowed me to see myself through the lens of a reality TV archetype. In the realm of personal branding, these insights are invaluable, and the journey has been both enlightening and entertaining.\nLucas Brienza Italian American, Fiery, and Ready for Reality TV Stardom"
+  },
+  {
+    "objectID": "posts/003_Playing_AI/index.html#the-assignment-a-reflection-of-self",
+    "href": "posts/003_Playing_AI/index.html#the-assignment-a-reflection-of-self",
+    "title": "Lucas as a Real HouseHusband",
+    "section": "",
+    "text": "The responses from the 14 participants, a blend of those closest to me, painted an overwhelmingly positive picture of my personal image. People see me as sociable, outgoing, humorous, caring, and wise. Descriptors like “outgoing,” “talkative,” and “personable” suggest I am at ease in social situations and adaptable to various people and contexts. With frequent mentions of “funny,” “witty,” “comical,” and “sassy,” it’s evident that my sense of humor is a highlight among my social circles.\nBeyond humor, I am recognized as a supportive friend and family member, with terms such as “listener,” “thoughtful,” “caring,” and “empathetic” used to characterize me. Being referred to as “wise” signals that others see me as a source of advice, while “genuine,” “loyal,” “bubbly,” “amazing,” and “joyful” confirm that my positive energy and good character do not go unnoticed.\n\n\nInterestingly, the exercise also revealed what I am not. Words like “patient,” “relaxed,” and “unbothered” indicate that I may come across as a dynamic individual who reacts keenly to my surroundings, sometimes hastily or with a hot temper. The feedback suggests that I am not always the calmest or most punctual person, which aligns with my self-admitted poor texting habits."
+  },
+  {
+    "objectID": "posts/003_Playing_AI/index.html#the-real-housewives-tagline",
+    "href": "posts/003_Playing_AI/index.html#the-real-housewives-tagline",
+    "title": "Lucas as a Real HouseHusband",
+    "section": "",
+    "text": "As a big reality TV fan, fantasizing about being on a show like “The Real Housewives” is a fun diversion. With the insights from my assignment, I prompted an AI tool to create a Real Housewives tagline for me. The result was spot-on:\n“In the game of life, I’m not just playing—I’m playing to win.” “Loyal to my roots and fiery to the core, when I step into the room, I bring the heat without missing a beat!”"
+  },
+  {
+    "objectID": "posts/003_Playing_AI/index.html#which-housewife-am-i-most-alike",
+    "href": "posts/003_Playing_AI/index.html#which-housewife-am-i-most-alike",
+    "title": "Lucas as a Real HouseHusband",
+    "section": "",
+    "text": "Curiosity led me to ask the AI which Real Housewife I resemble the most, and the answer was Teresa Giudice from “The Real Housewives of New Jersey.” The comparison was drawn based on our shared Italian American heritage, fiery personalities, warmth, humor, struggles with vulnerability, and occasional unresponsiveness."
+  },
+  {
+    "objectID": "posts/003_Playing_AI/index.html#the-least-like-me-lisa-vanderpump",
+    "href": "posts/003_Playing_AI/index.html#the-least-like-me-lisa-vanderpump",
+    "title": "Lucas as a Real HouseHusband",
+    "section": "",
+    "text": "Conversely, the AI suggested that I am least like Lisa Vanderpump of “The Real Housewives of Beverly Hills,” citing her calm and poised demeanor, emotional reservation, strategic approach to relationships, British formality, and a lifestyle focused on business and philanthropy."
+  },
+  {
+    "objectID": "posts/003_Playing_AI/index.html#embracing-my-identity",
+    "href": "posts/003_Playing_AI/index.html#embracing-my-identity",
+    "title": "Lucas as a Real HouseHusband",
+    "section": "",
+    "text": "The AI’s focus on my Italian American identity in these comparisons is intriguing. It highlights the cultural aspects of my persona, contrasting them with the British reserve of Lisa Vanderpump, while underscoring the similarities with Teresa Giudice’s vivacious Italian energy."
+  },
+  {
+    "objectID": "posts/003_Playing_AI/index.html#conclusion",
+    "href": "posts/003_Playing_AI/index.html#conclusion",
+    "title": "Lucas as a Real HouseHusband",
+    "section": "",
+    "text": "This assignment and the playful exploration with AI have not only provided a deeper understanding of how others perceive me but also allowed me to see myself through the lens of a reality TV archetype. In the realm of personal branding, these insights are invaluable, and the journey has been both enlightening and entertaining.\nLucas Brienza Italian American, Fiery, and Ready for Reality TV Stardom"
   },
   {
     "objectID": "posts/001_my_first_post/index.html",

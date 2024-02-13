@@ -1,31 +1,38 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "posts/002_lobehug/index.html",
+    "href": "posts/002_lobehug/index.html",
+    "title": "LobeHug: A Product made by Generative AI",
     "section": "",
-    "text": "About this blog Here are some experiments looking at LLMs as communicators"
+    "text": "We’re excited to unveil LobeHug – the latest innovation in clasp earrings that offer comfort without the need for piercing. After consulting with the advanced AI of ChatGPT 4, we’ve crafted a name and a product that embodies elegance and ease: LobeHug.\n\n\n\nSimple and Elegant: Easy to say, write, and remember.\nUnique: Stands out in the earring industry.\nMemorable: Short enough to stick in your mind.\nVisually Appealing: The name itself is as attractive as the product.\nAffectionate: Conveys the feeling of a soft, gentle embrace for your earlobes.\n\n\n\n\n\n\n\n\nEmbrace your ears with the tender touch of LobeHug clasp earrings. Our expertly crafted earrings are designed for those who seek the sophistication of fine jewelry without the commitment of a piercing.\nEach pair of LobeHug earrings features a gentle, secure clasp that ensures all-day comfort and a snug fit for any earlobe. Made with hypoallergenic materials, LobeHug earrings are suitable for sensitive skin, allowing style to be free from discomfort.\nWith LobeHug, accessorizing any outfit becomes effortless, adding a touch of class to your everyday look. Experience the fusion of fashion and convenience, and give your lobes the affection they’ve been missing.\nKey Features:\n\nHypoallergenic material for sensitive skin\nSecure and comfortable clasp design\nElegant styles to complement any wardrobe\nNo piercing required\n\n\n\n\n\n\n🌟 Introducing LobeHug! 🌟\nSay goodbye to the pinch of piercings and hello to effortless style with our newest collection of clasp earrings. LobeHug earrings are set to revolutionize your accessory game with a gentle embrace that’s kind to your skin. Perfect for all-day wear, whether you’re a fashion enthusiast who values comfort or someone who prefers not to pierce, LobeHug is for you.\nSwipe to see our dazzling designs ➡️ Tap to shop! 🛍️\n#LobeHug #ClaspEarrings #NoPierceAllGlam #EarLove #JewelryRevolution\n\n\n\n[Scene: A woman is getting ready for a day out. She looks at her reflection in the mirror and smiles.]\nVoiceover: “Introducing LobeHug - the earrings that embrace your lobes without a single pinch.”\n[The woman selects a pair of LobeHug earrings from a beautifully arranged jewelry box.]\nVoiceover: “For the style-savvy, the comfort-conscious, and everyone in between, LobeHug is here to adorn your ears with the utmost care.”\n[Close-up of the LobeHug earrings clasping securely onto the woman’s earlobes.]\nVoiceover: “Our unique clasp design ensures a comfortable fit, perfect for wearing from day to night. Crafted with love and attention to detail, LobeHug earrings are the accessory you’ve been waiting for.”\n[The woman heads out, confident and radiant, her LobeHug earrings catching the light.]\nVoiceover: “No piercings? No problem. LobeHug is all about celebrating you - just the way you are. Get ready to feel the gentle hug of LobeHug earrings and join the revolution of elegance and ease.”\n[The LobeHug logo appears on screen with a tagline.]\nVoiceover: “LobeHug - Where comfort meets chic. Available now.”\n\nBased on these detailed descriptions, imagine our product, LobeHug, as a set of beautifully crafted earrings with a sleek and modern design. The clasp mechanism is both sophisticated and discreet, ensuring that the earrings look seamless and elegant on the earlobes. The materials shine with a lustrous finish, indicating high-quality craftsmanship, and the overall aesthetic is one of understated luxury that complements any outfit with a whisper of grace."
   },
   {
-    "objectID": "posts/001_my_first_post/index.html",
-    "href": "posts/001_my_first_post/index.html",
-    "title": "A test post",
+    "objectID": "posts/002_lobehug/index.html#why-lobehug",
+    "href": "posts/002_lobehug/index.html#why-lobehug",
+    "title": "LobeHug: A Product made by Generative AI",
     "section": "",
-    "text": "for index in range(10): \n    print('hello"
+    "text": "Simple and Elegant: Easy to say, write, and remember.\nUnique: Stands out in the earring industry.\nMemorable: Short enough to stick in your mind.\nVisually Appealing: The name itself is as attractive as the product.\nAffectionate: Conveys the feeling of a soft, gentle embrace for your earlobes."
   },
   {
-    "objectID": "posts/001_my_first_post/index.html#this-is-a-blog-post",
-    "href": "posts/001_my_first_post/index.html#this-is-a-blog-post",
-    "title": "A test post",
+    "objectID": "posts/002_lobehug/index.html#amazon-listing-description",
+    "href": "posts/002_lobehug/index.html#amazon-listing-description",
+    "title": "LobeHug: A Product made by Generative AI",
     "section": "",
-    "text": "for index in range(10): \n    print('hello"
+    "text": "Embrace your ears with the tender touch of LobeHug clasp earrings. Our expertly crafted earrings are designed for those who seek the sophistication of fine jewelry without the commitment of a piercing.\nEach pair of LobeHug earrings features a gentle, secure clasp that ensures all-day comfort and a snug fit for any earlobe. Made with hypoallergenic materials, LobeHug earrings are suitable for sensitive skin, allowing style to be free from discomfort.\nWith LobeHug, accessorizing any outfit becomes effortless, adding a touch of class to your everyday look. Experience the fusion of fashion and convenience, and give your lobes the affection they’ve been missing.\nKey Features:\n\nHypoallergenic material for sensitive skin\nSecure and comfortable clasp design\nElegant styles to complement any wardrobe\nNo piercing required"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Prompting LLMs",
+    "objectID": "posts/002_lobehug/index.html#social-media-post",
+    "href": "posts/002_lobehug/index.html#social-media-post",
+    "title": "LobeHug: A Product made by Generative AI",
     "section": "",
-    "text": "A test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 6, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
+    "text": "🌟 Introducing LobeHug! 🌟\nSay goodbye to the pinch of piercings and hello to effortless style with our newest collection of clasp earrings. LobeHug earrings are set to revolutionize your accessory game with a gentle embrace that’s kind to your skin. Perfect for all-day wear, whether you’re a fashion enthusiast who values comfort or someone who prefers not to pierce, LobeHug is for you.\nSwipe to see our dazzling designs ➡️ Tap to shop! 🛍️\n#LobeHug #ClaspEarrings #NoPierceAllGlam #EarLove #JewelryRevolution"
+  },
+  {
+    "objectID": "posts/002_lobehug/index.html#television-ad-script",
+    "href": "posts/002_lobehug/index.html#television-ad-script",
+    "title": "LobeHug: A Product made by Generative AI",
+    "section": "",
+    "text": "[Scene: A woman is getting ready for a day out. She looks at her reflection in the mirror and smiles.]\nVoiceover: “Introducing LobeHug - the earrings that embrace your lobes without a single pinch.”\n[The woman selects a pair of LobeHug earrings from a beautifully arranged jewelry box.]\nVoiceover: “For the style-savvy, the comfort-conscious, and everyone in between, LobeHug is here to adorn your ears with the utmost care.”\n[Close-up of the LobeHug earrings clasping securely onto the woman’s earlobes.]\nVoiceover: “Our unique clasp design ensures a comfortable fit, perfect for wearing from day to night. Crafted with love and attention to detail, LobeHug earrings are the accessory you’ve been waiting for.”\n[The woman heads out, confident and radiant, her LobeHug earrings catching the light.]\nVoiceover: “No piercings? No problem. LobeHug is all about celebrating you - just the way you are. Get ready to feel the gentle hug of LobeHug earrings and join the revolution of elegance and ease.”\n[The LobeHug logo appears on screen with a tagline.]\nVoiceover: “LobeHug - Where comfort meets chic. Available now.”\n\nBased on these detailed descriptions, imagine our product, LobeHug, as a set of beautifully crafted earrings with a sleek and modern design. The clasp mechanism is both sophisticated and discreet, ensuring that the earrings look seamless and elegant on the earlobes. The materials shine with a lustrous finish, indicating high-quality craftsmanship, and the overall aesthetic is one of understated luxury that complements any outfit with a whisper of grace."
   },
   {
     "objectID": "posts/000_test_post/index.html",
@@ -40,5 +47,33 @@
     "title": "A test post",
     "section": "",
     "text": "Read the following and see if you can answer the question:\n\n\nThere are three boxes in a stack. A pink one, a purple one and a green one. The pink one is in the middle of the stack with the purple below it. What is the color of the box on the bottom of the stack?\n\nMost likely you answered purple…\nBut it is possible you first said green (don’t worry if you did it is quite a common response!)\n\n\nIt’s a verbal visual problem that requires some deliberation and most likely for us to create a visual image of a stack of boxes as a reasoning aid.\nNotice also the complexity of the language used in the prompt to describe the scene. The use of natural language as opposed to a formal/logical calculus does hold the potential for ambiguity (multiple interpretations) and inexactness. However, it is the most normal/natural, efficient and broadly accessible way of communicating such information.\nNotice 1. The use of anaphor or reference. - Three BOXES -&gt; a pink/purple/green ONE as opposed to a pink box, a purple box and a green box. - The PINK ONE is in the middle ... the purple {BOX} below IT {the pink box}\nWe tend to try and avoid this kind of repetition to make our speech more coherent.\n\nAlthough the description in language may not be entirely concise, there is no real ambiguity as to how the boxes can be arranged. It must be: | Box | Stack position | | — | — | | GREEN | top | | PINK | middle | | PURPLE | bottom |\n\n\n\n\nGPT3.5 Turbo\n\nHad some difficulties and answered green\nLlama2 (chat 7B version)\n\n\nAnswered correctly (purple) and used some so-called chain-of-thought reasoning\n\nBing Chat (MS Co-pilot)\nThis LLM is GPT4 with some Microsoft specific tuning and RAG (search) additions.\nIt get’s it correct:\n\nThe color of the box on the bottom of the stack is purple. This is because the purple box is below the pink one, which is in the middle of the stack. Therefore, the purple box must be the lowest one. 🟪\n\nBut when you follow up and ask it to create visual representation of the box arrangement\n\nPROMPT: Can you create a visual representation of how the boxes are arranged?\n\nIt responds\n\nRESPONSE: Sure, I’ll try to create that. Here is a visual representation of how the boxes are arranged:\n\nAnd uses DALL-E3 to create 4 different attempts at a visual representation:\n\nNONE OF WHICH ARE CORRECT!!!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog Here are some experiments looking at LLMs as communicators"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Prompting LLMs",
+    "section": "",
+    "text": "LobeHug: A Product made by Generative AI\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nproduct development\n\n\n\nA run through of our product, its selling points, ad copy, and more!\n\n\n\n\n\nFeb 13, 2024\n\n\nLucas Brienza\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 6, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/001_my_first_post/index.html",
+    "href": "posts/001_my_first_post/index.html",
+    "title": "A test post",
+    "section": "",
+    "text": "for index in range(10): \n    print('hello')\n\nhello\nhello\nhello\nhello\nhello\nhello\nhello\nhello\nhello\nhello\n\n\n\n![niki](haley_mtp.png)"
+  },
+  {
+    "objectID": "posts/001_my_first_post/index.html#this-is-a-blog-post",
+    "href": "posts/001_my_first_post/index.html#this-is-a-blog-post",
+    "title": "A test post",
+    "section": "",
+    "text": "for index in range(10): \n    print('hello')\n\nhello\nhello\nhello\nhello\nhello\nhello\nhello\nhello\nhello\nhello\n\n\n\n![niki](haley_mtp.png)"
   }
 ]

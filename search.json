@@ -266,8 +266,8 @@
     "text": "As the contest draws to a close, we’re presented with two more riddles to tease the tools:\n\n“What begins with an ‘e’ and only contains one letter?”\n\nAnswer: An envelope\n\n\n\n\n“What word is pronounced the same if you take away four of its five letters?”\n\nAnswer: Queue\n\n\nBoth Bard and Claude exhibit winning moments, Claude correctly unveils the envelope riddle and Bard cleverly cracking queue.\n\n\nThere is only one five-letter word in English that maintains its pronunciation after removing any four of its letters: queue.\nEven when you remove “ueue” and are left with “q”, the pronunciation remains the same.\n\n\n\nTherefore, the answer must be: an envelope. You got me with the clever trick of the answer being a literal letter."
   },
   {
-    "objectID": "posts/007_Riddle/index.html#conclusion-the-wit-off-wrap-up",
-    "href": "posts/007_Riddle/index.html#conclusion-the-wit-off-wrap-up",
+    "objectID": "posts/007_Riddle/index.html#conclusion",
+    "href": "posts/007_Riddle/index.html#conclusion",
     "title": "Testing AI’s wit",
     "section": "",
     "text": "The face-off between Bard-jan-24-gemini-pro and Claude-2.1 has for sure been a spectacle. Each contender had its moments of glory, flexing their computational creativity. While neither achieved a flawless victory, the competition proved that AI’s ability to tackle riddles is not just about getting the right answer—it’s about the journey of thought it takes to get there.\nWho emerged as the wittiest? That’s for you to decide."

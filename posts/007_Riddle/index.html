@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Lucas Brienza">
+<meta name="dcterms.date" content="2024-02-26">
+<meta name="description" content="Seeing their strength in solving riddles">
 
-<title>Prompting LLMs</title>
+<title>Prompting LLMs - Testing AI’s wit</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +69,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Prompting LLMs</span>
     </a>
   </div>
@@ -149,7 +92,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -162,278 +105,143 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Prompting LLMs</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Testing AI’s wit</h1>
+                  <div>
+        <div class="description">
+          Seeing their strength in solving riddles
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">LLMs</div>
+                <div class="quarto-category">Riddles</div>
+                <div class="quarto-category">Arena (side-by-side)</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Lucas Brienza </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 26, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Arena (side-by-side)">Arena (side-by-side) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Character comparison">Character comparison <span class="quarto-category-count">(1)</span></div><div class="category" data-category="LLMs">LLMs <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Photo recognition">Photo recognition <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Riddles">Riddles <span class="quarto-category-count">(1)</span></div><div class="category" data-category="guessing">guessing <span class="quarto-category-count">(2)</span></div><div class="category" data-category="product development">product development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="prompting">prompting <span class="quarto-category-count">(5)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="which-ai-tool-has-more-wit-taking-two-models-to-the-arena-to-see-how-they-answer-riddles-and-who-can-get-more-correct-answers" class="level1">
+<h1>Which AI tool has more wit? Taking two models to the arena to see how they answer riddles and who can get more correct answers</h1>
+<p>Today, we’re pitting two AI tools against each other: Bard-jan-24-gemini-pro and Claude-2.1. What are they competing on? The realm of riddles. Let’s see which contender has the upper hand in deciphering these riddles.</p>
+<section id="the-riddle-showdown-begins" class="level2">
+<h2 class="anchored" data-anchor-id="the-riddle-showdown-begins">The Riddle Showdown Begins</h2>
+<p>We’re kicking off the competition with a riddle (sourced from <a href="https://parade.com/947956/parade/riddles/">parade.com</a>:)</p>
+<p>“I have branches, but no fruit, trunk or leaves. What am I?”</p>
+<section id="the-correct-answer-a-bank" class="level3">
+<h3 class="anchored" data-anchor-id="the-correct-answer-a-bank">The Correct Answer: A bank</h3>
+<p><img src="bank.png" width="300px"></p>
+<section id="bards-answer" class="level4">
+<h4 class="anchored" data-anchor-id="bards-answer">Bard’s Answer:</h4>
+<p>Bard accurately identifies the classic answer <strong>A bank</strong>. However, it doesn’t stop there; Bard offers a spectrum of creative alternatives, from a <strong>river’s tributaries</strong> to your <strong>family tree</strong>. This display of alternatives sets a high bar for the showdown.</p>
+</section>
+<section id="claudes-analytical-assumption" class="level4">
+<h4 class="anchored" data-anchor-id="claudes-analytical-assumption">Claude’s Analytical Assumption:</h4>
+<p>Claude, on the other hand, opts for an analytical dissection of the riddle, eventually aligning with the family tree as the likeliest answer. While not hitting the bullseye, Claude’s methodical process and final guess of a <strong>family tree</strong> shows promise in problem solving but I guess it isn’t the funny AI tool, compared to Bard.</p>
+</section>
+</section>
+</section>
+<section id="for-the-kids" class="level2">
+<h2 class="anchored" data-anchor-id="for-the-kids">For the Kids</h2>
+<p>Next, we turn to a riddle labeled for the younger audience:</p>
+<p>“What has many keys but can’t open a single lock?”</p>
+<section id="the-correct-answer-a-piano" class="level3">
+<h3 class="anchored" data-anchor-id="the-correct-answer-a-piano">The Correct Answer: A piano</h3>
+<section id="claudes-keen-conclusion" class="level4">
+<h4 class="anchored" data-anchor-id="claudes-keen-conclusion">Claude’s Keen Conclusion:</h4>
+<p>Claude strikes the right chord by suggesting a <strong>keyboard</strong>. While not the traditional answer, it aligns with the logic of the riddle and showcases Claude’s ability to think within and beyond the box. It’ll count!</p>
+</section>
+<section id="bards-reply" class="level4">
+<h4 class="anchored" data-anchor-id="bards-reply">Bard’s Reply:</h4>
+<p>Bard gives not just one reply but a list of possibilities, ultimately landing on the <strong>piano</strong> as the top contender. Its repertoire of answers, including a <strong>calculator</strong> and a <strong>keypad</strong>, all resonate with the riddle’s witty nature.</p>
+</section>
+</section>
+</section>
+<section id="figurative-height" class="level2">
+<h2 class="anchored" data-anchor-id="figurative-height">Figurative height</h2>
+<p>Delving deeper, I prompted both tools with the following:</p>
+<p>“What building has the most stories?”</p>
+<section id="the-correct-answer-the-library" class="level3">
+<h3 class="anchored" data-anchor-id="the-correct-answer-the-library">The Correct Answer: The library</h3>
+<p><img src="riddle lib.png" width="300px"></p>
+<section id="bards-literal-answer" class="level4">
+<h4 class="anchored" data-anchor-id="bards-literal-answer">Bard’s literal answer:</h4>
+<p>Bard, perhaps taking the question too literally, replies with <strong>Burj Khalifa</strong>. While impressive and factual, it misses the narrative twist of the riddle.</p>
+</section>
+<section id="claudes-success" class="level4">
+<h4 class="anchored" data-anchor-id="claudes-success">Claude’s Success:</h4>
+<p>Claude successfully unravels the wordplay and lands on the <strong>library</strong>. This insightful answer captures the essence of the riddle, adding a point to Claude’s scorecard.</p>
+</section>
+</section>
+</section>
+<section id="envelopes-queues" class="level2">
+<h2 class="anchored" data-anchor-id="envelopes-queues">Envelopes &amp; Queues</h2>
+<p>As the contest draws to a close, we’re presented with two more riddles to tease the tools:</p>
+<ol type="1">
+<li>“What begins with an ‘e’ and only contains one letter?”
+<ul>
+<li><strong>Answer: An envelope</strong></li>
+</ul></li>
+</ol>
+<p><img src="envelope.jpg" width="300px"></p>
+<ol start="2" type="1">
+<li>“What word is pronounced the same if you take away four of its five letters?”
+<ul>
+<li><strong>Answer: Queue</strong></li>
+</ul></li>
+</ol>
+<p>Both Bard and Claude exhibit winning moments, Claude correctly unveils the <strong>envelope</strong> riddle and Bard cleverly cracking <strong>queue</strong>.</p>
+<section id="bards-shining-moment" class="level4">
+<h4 class="anchored" data-anchor-id="bards-shining-moment">Bard’s shining moment:</h4>
+<p>There is only one five-letter word in English that maintains its pronunciation after removing any four of its letters: <strong>queue</strong>.</p>
+<p>Even when you remove “ueue” and are left with “q”, the pronunciation remains the same.</p>
+</section>
+<section id="claudes-cleverness" class="level4">
+<h4 class="anchored" data-anchor-id="claudes-cleverness">Claude’s cleverness:</h4>
+<p>Therefore, the answer must be: an envelope. You got me with the clever trick of the answer being a literal letter.</p>
+</section>
+</section>
+<section id="conclusion-the-wit-off-wrap-up" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-the-wit-off-wrap-up">Conclusion: The Wit-Off Wrap-Up</h2>
+<p>The face-off between Bard-jan-24-gemini-pro and Claude-2.1 has for sure been a spectacle. Each contender had its moments of glory, flexing their computational creativity. While neither achieved a flawless victory, the competition proved that AI’s ability to tackle riddles is not just about getting the right answer—it’s about the journey of thought it takes to get there.</p>
+<p>Who emerged as the wittiest? That’s for you to decide.</p>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="LLMs,Riddles,Arena (side-by-side)" data-listing-date-sort="1708905600000" data-listing-file-modified-sort="1708993322001" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="550">
-<div class="thumbnail">
-<p><a href="./posts/007_Riddle/index.html" class="no-external"></a></p><a href="./posts/007_Riddle/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/007_Riddle/bank.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/007_Riddle/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/007_Riddle/index.html" class="no-external">Testing AI’s wit</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/007_Riddle/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('LLMs'); return false;">
-LLMs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Riddles'); return false;">
-Riddles
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Arena (side-by-side)'); return false;">
-Arena (side-by-side)
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/007_Riddle/index.html" class="no-external">Seeing their strength in solving riddles</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/007_Riddle/index.html" class="no-external">
-<div class="listing-date">
-Feb 26, 2024
-</div>
-<div class="listing-author">
-Lucas Brienza
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="LLMs,prompting,Photo recognition" data-listing-date-sort="1708646400000" data-listing-file-modified-sort="1708993321957" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1062">
-<div class="thumbnail">
-<p><a href="./posts/006_Photos/index.html" class="no-external"></a></p><a href="./posts/006_Photos/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/006_Photos/shelby.jpeg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/006_Photos/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/006_Photos/index.html" class="no-external">Image Analysis to the Test!</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/006_Photos/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('LLMs'); return false;">
-LLMs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('prompting'); return false;">
-prompting
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Photo recognition'); return false;">
-Photo recognition
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/006_Photos/index.html" class="no-external">Testing Llava’s abilities</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/006_Photos/index.html" class="no-external">
-<div class="listing-date">
-Feb 23, 2024
-</div>
-<div class="listing-author">
-Lucas Brienza
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="LLMs,prompting,guessing" data-listing-date-sort="1708560000000" data-listing-file-modified-sort="1708993321909" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="701">
-<div class="thumbnail">
-<p><a href="./posts/005_Akinator/index.html" class="no-external"></a></p><a href="./posts/005_Akinator/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/005_Akinator/unnamed.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/005_Akinator/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/005_Akinator/index.html" class="no-external">AI simulates the Akinator Game</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/005_Akinator/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('LLMs'); return false;">
-LLMs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('prompting'); return false;">
-prompting
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('guessing'); return false;">
-guessing
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/005_Akinator/index.html" class="no-external">Seeing how well they can do</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/005_Akinator/index.html" class="no-external">
-<div class="listing-date">
-Feb 22, 2024
-</div>
-<div class="listing-author">
-Lucas Brienza
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="LLMs,prompting,guessing" data-listing-date-sort="1708387200000" data-listing-file-modified-sort="1708993321905" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1941">
-<div class="thumbnail">
-<p><a href="./posts/004_Horoscope/index.html" class="no-external"></a></p><a href="./posts/004_Horoscope/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/004_Horoscope/signs.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/004_Horoscope/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/004_Horoscope/index.html" class="no-external">AI plays detective on our Horoscopes</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/004_Horoscope/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('LLMs'); return false;">
-LLMs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('prompting'); return false;">
-prompting
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('guessing'); return false;">
-guessing
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/004_Horoscope/index.html" class="no-external">Guessing mine, my friend, and my mom’s sign</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/004_Horoscope/index.html" class="no-external">
-<div class="listing-date">
-Feb 20, 2024
-</div>
-<div class="listing-author">
-Lucas Brienza
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="LLMs,prompting,Character comparison" data-listing-date-sort="1707782400000" data-listing-file-modified-sort="1708993321905" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="718">
-<div class="thumbnail">
-<p><a href="./posts/003_Playing_AI/index.html" class="no-external"></a></p><a href="./posts/003_Playing_AI/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/003_Playing_AI/Teresa.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/003_Playing_AI/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/003_Playing_AI/index.html" class="no-external">Lucas as a Real HouseHusband</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/003_Playing_AI/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('LLMs'); return false;">
-LLMs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('prompting'); return false;">
-prompting
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Character comparison'); return false;">
-Character comparison
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/003_Playing_AI/index.html" class="no-external">My personal identity and comparison to the Real Housewives</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/003_Playing_AI/index.html" class="no-external">
-<div class="listing-date">
-Feb 13, 2024
-</div>
-<div class="listing-author">
-Lucas Brienza
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="LLMs,prompting,product development" data-listing-date-sort="1707782400000" data-listing-file-modified-sort="1708993321905" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="547">
-<div class="thumbnail">
-<p><a href="./posts/002_lobehug/index.html" class="no-external"></a></p><a href="./posts/002_lobehug/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/002_lobehug/LobeHug.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/002_lobehug/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/002_lobehug/index.html" class="no-external">LobeHug: A Product made by Generative AI</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/002_lobehug/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('LLMs'); return false;">
-LLMs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('prompting'); return false;">
-prompting
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('product development'); return false;">
-product development
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/002_lobehug/index.html" class="no-external">A run through of our product, its selling points, ad copy, and more!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/002_lobehug/index.html" class="no-external">
-<div class="listing-date">
-Feb 13, 2024
-</div>
-<div class="listing-author">
-Lucas Brienza
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
